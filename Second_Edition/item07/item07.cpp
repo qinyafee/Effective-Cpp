@@ -16,5 +16,5 @@ void noMoreMemory()
 int main()
 {
   set_new_handler(noMoreMemory);
-  int *pBigDataArray = new int[100000000];
+  int *pBigDataArray = new int[1000000000000];
 }

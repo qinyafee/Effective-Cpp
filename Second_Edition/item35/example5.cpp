@@ -7,7 +7,7 @@ public:
  
   virtual int height() const;          // return current
   virtual int width() const;           // values
- };
+};
 
 class Square: public Rectangle { };
  

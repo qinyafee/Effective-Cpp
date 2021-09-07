@@ -21,7 +21,7 @@ void f(int x)
  
 void f(string *p)
 {
-  //cout << "f(string *p)" << endl;
+  cout << "f(string *p)" << endl;
 }
 
 int main()

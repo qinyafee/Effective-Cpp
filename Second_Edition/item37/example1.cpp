@@ -24,11 +24,13 @@ int main()
   // Using pointer to Base.
   B *pB = &x;                   // get pointer to x
 
-  pB->mf();                     // call mf through pointer
+  pB->mf();                     // B:mf()
 
   // Using pointer to Derived.
   D *pD = &x;                   // get pointer to x
 
-  pD->mf();                     // call mf through pointer
+  pD->mf();                     // D:mf()
+
+  pD->B::mf();                  // B:mf()
 
 }

@@ -37,5 +37,5 @@ int main()
 
   pr->draw(RED);                  // calls Rectangle::draw(RED)
 
-  pr->draw();                     // calls Rectangle::draw(RED)!
+  pr->draw();                     // calls Rectangle::draw(RED)! not GREEN
 }
